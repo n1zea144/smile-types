@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option go_package = "github.com/n1zea144/smiletypes/api/v1";
+
+// IGO Request message
+message IGORequest {
+        string RequestId = 1;
+
+}

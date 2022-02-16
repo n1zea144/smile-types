@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option go_package = "github.com/n1zea144/smiletypes/api/v2";
+
+import "google/protobuf/timestamp.proto";
+
+// IGO Request message
+message IGORequest {
+        string RequestIdentifier = 1;
+        string InvestigatorEmail = 2;
+        google.protobuf.Timestamp Date = 3;
+}
