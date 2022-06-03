@@ -1,4 +1,4 @@
-module github.com/n1zea144/smiletypes
+module github.com/n1zea144/smile_types
 
 go 1.17
 
